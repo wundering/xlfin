@@ -1,3 +1,24 @@
+/**
+ * xlfin.js
+ * https://github.com/djhaley/xlfin
+ *
+ * A JavaScript library providing the capabilities of Excel's financial functions.
+ *
+ * @version 0.1
+ * @date    2015-02-01
+ *
+ * @license
+ * Copyright (C) 2015 Dan Haley
+ *
+ * xlfin.js is licensed under:
+ * * The Apache 2.0 License
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * xlfin.js may be distributed under this license.
+ *
+ * Portions of this library are a recreation of the F# Excel Financial Functions
+ * library located at https://github.com/fsprojects/ExcelFinancialFunctions.  The
+ * F# Excel Financial Functions library is also licensed under the Apache 2.0 License.
+ */
 ; (function () {
 	var xlfin,
 		supportedProps = ["pv", "rate", "nper", "pmt"],
